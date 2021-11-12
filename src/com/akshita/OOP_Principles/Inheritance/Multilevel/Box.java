@@ -3,6 +3,7 @@ package com.akshita.OOP_Principles.Inheritance.Multilevel;
 public class Box {
     int len,br,h;
     Box(){
+        super();
         this.len=-1;
         this.br=-1;
         this.h=-1;
