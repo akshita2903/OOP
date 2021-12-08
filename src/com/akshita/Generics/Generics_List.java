@@ -69,7 +69,7 @@ public class Generics_List<T>{
 //        l.add("spring"); //shows error
         Generics_List<Integer> obj=new Generics_List<>();
 //        obj.add("2");
-        obj.add(1);
-        System.out.println(obj.get(0));
+        obj.add(1); obj.add(5);
+        System.out.println(obj.get(0)+" "+obj.remove());
     }
 }
